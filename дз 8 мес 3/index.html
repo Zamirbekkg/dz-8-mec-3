@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    
+    <h1><span>Wiki </span>по Rick и Morty</h1>
+    <div class="container_characters">
+ 
+
+    <form action="search"> 
+    <h2>Поиск персонажа</h2>
+    <input type="text" id="search" placeholder="Введите имя персонажа">
+    <button onclick="searchCharacter()">Поиск</button>
+    <div id="result"></div>
+    </form>
+
+    </div>
+    <div class="pagination">
+        <button id="prevPage" onclick="prevPage()">назад</button>
+        <h3 id="currentPage">1</h3>
+        <button id="nextPage" onclick="nextPage()">вперед</button>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
